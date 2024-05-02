@@ -18,5 +18,8 @@ public class Function {
         Function func = new Function();
         double returnValue = func.add(integer, floatDecimal);
         System.out.println(returnValue);
+
+        Clock clock = new Clock(13, 02, 8);
+        System.out.println(clock.seconds);
     }
 }
